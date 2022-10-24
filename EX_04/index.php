@@ -15,7 +15,7 @@ values ('Alex','aabadal@gmail.com','alex13579',2003-08-08,1,'no')");
  */
 
 
-$resulta = $conexion->query("SELECT * FROM aabadalg_V1_Personas ");
+$resulta = $conexion->query("SELECT * FROM aabadalg_V1_Personas3 ");
 foreach($resulta as $fila){
     echo $fila['Usuario'] . " - " .$fila['correo'] . '</br>';
     echo $fila['contrasena'] . " - " .$fila['correo'] . '</br>';
